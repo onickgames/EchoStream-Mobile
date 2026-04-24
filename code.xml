@@ -9,14 +9,14 @@
     <catrobatLanguageVersion>1.17</catrobatLanguageVersion>
     <customResolution>false</customResolution>
     <dateTimeUpload></dateTimeUpload>
-    <description></description>
+    <description>EchoStream É uma Plataforma de músicas Gratuita e sem anúncios.</description>
     <deviceName>SM-A057M</deviceName>
-    <gitRemoteUrl></gitRemoteUrl>
+    <gitRemoteUrl>https://github.com/onickgames/EchoStream-Mobile.git</gitRemoteUrl>
     <isCastProject>false</isCastProject>
     <landscapeMode>false</landscapeMode>
     <listeningLanguageTag></listeningLanguageTag>
     <mediaLicense></mediaLicense>
-    <notesAndCredits></notesAndCredits>
+    <notesAndCredits>NickTeam, onickgames</notesAndCredits>
     <physicsHeightArea>2.0</physicsHeightArea>
     <physicsWidthArea>3.0</physicsWidthArea>
     <platform>Android</platform>
