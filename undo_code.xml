@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<program>
+  <header>
+    <applicationBuildName></applicationBuildName>
+    <applicationBuildNumber>0</applicationBuildNumber>
+    <applicationBuildType>release</applicationBuildType>
+    <applicationName>NewCatroid</applicationName>
+    <applicationVersion>2.1.1b2</applicationVersion>
+    <catrobatLanguageVersion>1.17</catrobatLanguageVersion>
+    <customResolution>false</customResolution>
+    <dateTimeUpload></dateTimeUpload>
+    <description></description>
+    <deviceName>SM-A057M</deviceName>
+    <gitRemoteUrl></gitRemoteUrl>
+    <isCastProject>false</isCastProject>
+    <landscapeMode>false</landscapeMode>
+    <listeningLanguageTag></listeningLanguageTag>
+    <mediaLicense></mediaLicense>
+    <notesAndCredits></notesAndCredits>
+    <physicsHeightArea>2.0</physicsHeightArea>
+    <physicsWidthArea>3.0</physicsWidthArea>
+    <platform>Android</platform>
+    <platformVersion>35</platformVersion>
+    <programLicense></programLicense>
+    <programName>EchoStream</programName>
+    <remixOf></remixOf>
+    <scenesEnabled>true</scenesEnabled>
+    <screenHeight>2192</screenHeight>
+    <screenMode>STRETCH</screenMode>
+    <screenWidth>1080</screenWidth>
+    <tags></tags>
+    <url></url>
+    <userHandle></userHandle>
+  </header>
+  <settings/>
+  <scenes>
+    <scene sceneId="d0ae584a-1322-48b1-87ec-0c12197724c2">
+      <name>Loading</name>
+      <objectList>
+        <object type="Sprite" spriteId="19cb3d6e-4b41-4a14-8121-ed87053ff583" name="Fundo">
+          <lookList>
+            <look fileName="Fundo.png" lookId="3a03c3a6-c925-4eb3-932a-4807d7ffdb84" name="Fundo">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList/>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="d5876c22-9df5-460d-ae17-7bc2db314d9e" name="loading (1)">
+          <lookList>
+            <look fileName="Meu ator ou objeto_#4.png" lookId="532e2d48-c7a3-4959-9964-eb40463c27b6" name="loading">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+            <look fileName="Meu ator ou objeto_#5.png" lookId="16a00f48-b8ac-4812-8685-c4a3149fb3aa" name="loading (2)">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+            <look fileName="Meu ator ou objeto_#6.png" lookId="e4b9a871-1cc2-44f2-8573-d0dca3f1a1ba" name="loading (3)">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+            <look fileName="Meu ator ou objeto_#7.png" lookId="b8a6a0e1-0fdf-478b-ab04-f2753f015253" name="loading (1)">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>f72dcf18-90ff-4c7d-b94a-63e42d5c0b65</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>600</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>350</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="PointInDirectionBrick">
+                  <brickId>6143e0e8-50e6-4bb6-a0b6-9aaa0743e553</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="DEGREES">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>90.0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetSizeToBrick">
+                  <brickId>5fbf633c-276b-4f1d-8523-d967d854faa7</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>50</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>25f34790-cde7-4722-8b9c-9a4a3acb8bcf</scriptId>
+            </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ForeverBrick">
+                  <brickId>4b955c36-7799-4760-88c4-05c52e61ddcf</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="WaitBrick">
+                      <brickId>0c5d873b-4bc4-4662-9e11-e78d1152e6cf</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIME_TO_WAIT_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0.5</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="NextLookBrick">
+                      <brickId>292e4beb-83f5-4910-b092-3db5741c57ad</brickId>
+                      <commentedOut>false</commentedOut>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>1fd18cd4-b256-4727-8e80-cb7c4187e53c</scriptId>
+            </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="WaitBrick">
+                  <brickId>ae04f5a9-49e6-4ea5-9376-5ebcdd23aa5c</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>2</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>506c3922-1545-47c0-b736-55fc8a8026de</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>20</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeYByNBrick">
+                      <brickId>71aaa73b-0e0c-464c-b5f1-9d8207ac0d04</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_POSITION_CHANGE">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>1</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>b64d7774-ac27-45e6-8f96-53c7a402cb11</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>20</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeYByNBrick">
+                      <brickId>28876e32-c7e9-4cef-9449-82fd03a47188</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_POSITION_CHANGE">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>2</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>62a72b46-eecd-4b3a-9053-3d9bcd25f663</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>20</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeYByNBrick">
+                      <brickId>9799054b-a5ba-4267-877a-d1f0e60358ed</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_POSITION_CHANGE">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>3</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>9a801700-78bb-49d2-97b4-ad2d11e9142a</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>50</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeYByNBrick">
+                      <brickId>1090e7a7-dc26-4aae-b167-37d1220c150f</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_POSITION_CHANGE">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>5</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>7453aa28-acf8-47ea-a9b6-ca08f5ad0d44</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeYByNBrick">
+                      <brickId>e79d6419-31bb-4d60-b547-2c7add2f0ad6</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_POSITION_CHANGE">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>11</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>f314a174-a11d-40a2-9f14-63a1c01988db</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="48d61c7e-fce7-4f1d-a0ab-0467628123fa" name="Logo">
+          <lookList>
+            <look fileName="1000087394.png" lookId="612fa0cf-2d2a-4ae8-8fa1-479c95477c9d" name="Logo">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SetSizeToBrick">
+                  <brickId>b8bbd241-2738-4ced-99c6-e4f4c9f8762e</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>200</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="PlaceAtBrick">
+                  <brickId>f9610a4e-29c7-4d1b-9a40-7774e77c622a</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="TurnLeftSpeedBrick">
+                  <brickId>ddecaec1-2421-4e95-bc51-f7ecd31eefe0</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="PHYSICS_TURN_LEFT_SPEED">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>20</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>f6650234-8e35-4bdc-b2a7-44aaaa943b8e</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>2</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>d88e028f-4673-4a35-8404-f4f6427f8dc2</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>20</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeYByNBrick">
+                      <brickId>74c5d2c7-ca68-4cc0-8eaa-8e135aaa1e0c</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_POSITION_CHANGE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>8bed1f83-f451-4e1b-acf0-2af1bfd2459c</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>20</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeYByNBrick">
+                      <brickId>c3772d4b-51d4-426e-8511-df1fc4f857b9</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_POSITION_CHANGE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>2</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>3ad93589-8020-4e81-928f-b045acff61dd</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>20</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeYByNBrick">
+                      <brickId>19e14e1f-bcd3-478d-b4fc-1b0245c3644b</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_POSITION_CHANGE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>3</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>d9beb560-3635-43ed-a172-e1622763fb59</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>50</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeYByNBrick">
+                      <brickId>e998ecf3-5e68-4629-a497-c083d4dc8199</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_POSITION_CHANGE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>5</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>35d6a7fd-b638-451a-8805-bec566c567cd</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeYByNBrick">
+                      <brickId>3baf83de-8cf3-4f86-8896-e2a91a5a716a</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_POSITION_CHANGE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>11</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>9cb93978-854b-489e-97c0-9f24e54f453f</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="d0183f0f-0ae2-4087-8b5a-82f11993e9ea" name="Text">
+          <lookList>
+            <look fileName="Text.png" lookId="ace047f7-beb8-41fb-bd8a-071945a3303a" name="Text">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SetTransparencyBrick">
+                  <brickId>d535a8da-4b74-4ddc-b637-a2b5bdbf03b2</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TRANSPARENCY">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="PlaceAtBrick">
+                  <brickId>497b23d6-e8b9-461a-a003-fb27893dfe6d</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>741bac5a-9975-4a49-87fc-1c5dda43ecb3</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <leftChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>1</value>
+                      </leftChild>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>6</value>
+                      </rightChild>
+                      <type>FUNCTION</type>
+                      <value>RAND</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>28c2372a-cc3e-4b1c-89a7-b6e66daec603</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeTransparencyByNBrick">
+                      <brickId>f29f7346-93c0-471b-a92b-b68be75ab980</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TRANSPARENCY_CHANGE">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>1</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>4da957b7-a99f-43cc-9886-cd0be4df13d0</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>4</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="RepeatBrick">
+                  <brickId>58ab374a-25a4-4c94-94d1-13e4ee10883a</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="ChangeTransparencyByNBrick">
+                      <brickId>0c04b961-8c24-45af-a04d-d15f8bef37bc</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TRANSPARENCY_CHANGE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>f1f50c67-0b99-486d-90f7-60dc742b6c8b</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SceneStartBrick">
+                  <brickId>6f99ea13-0a18-4ce6-9afd-85a9e4906484</brickId>
+                  <commentedOut>false</commentedOut>
+                  <sceneToStart>Cena</sceneToStart>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>4cba9f97-fd11-4864-9bdc-2d675bb6ce3b</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+    <scene sceneId="9397582f-117f-4e14-b23f-8314dad511a8">
+      <name>Cena</name>
+      <objectList>
+        <object type="Sprite" spriteId="7480ea88-a9c4-4884-b248-ae7a621dc7b4" name="Fundo">
+          <lookList/>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="CreateWebFileBrick">
+                  <brickId>55f060a7-d4a2-45ea-b2ac-1fc6dc29b53c</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="WIDTH">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1110</value>
+                    </formula>
+                    <formula category="HTML">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;pt-br&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, viewport-fit=cover&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#000000&quot;&gt;
+    &lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+    &lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot;&gt;
+    &lt;title&gt;EchoStream | Definitive Edition&lt;/title&gt;
+    
+    &lt;script src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css&quot;&gt;
+    
+    &lt;style&gt;
+        @import url(&apos;https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&amp;display=swap&apos;);
+        
+        :root {
+            --app-accent: #22c55e;
+            --grad-start: #22c55e;
+            --grad-end: #16a34a;
+            --grad-dir: to bottom;
+            --bg-color: #000000;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --text-main: #ffffff;
+            --text-dim: #71717a;
+            --border-alpha: rgba(255, 255, 255, 0.08);
+        }
+
+        [data-theme=&quot;light&quot;] {
+            --bg-color: #ffffff;
+            --card-bg: rgba(0, 0, 0, 0.05);
+            --text-main: #000000;
+            --text-dim: #6b7280;
+            --border-alpha: rgba(0, 0, 0, 0.1);
+        }
+
+        body { 
+            font-family: &apos;Inter&apos;, sans-serif; 
+            background-color: var(--bg-color); 
+            color: var(--text-main); 
+            overflow: hidden; 
+            height: 100vh; 
+            margin: 0;
+            -webkit-tap-highlight-color: transparent;
+            user-select: none;
+            transition: background-color 0.4s ease;
+        }
+
+        #dynamic-bg-glow {
+            position: fixed; inset: 0;
+            background: radial-gradient(circle at 50% -20%, var(--app-accent), transparent 70%);
+            opacity: 0.15; pointer-events: none; z-index: 0; transition: all 0.8s ease;
+        }
+
+        .dynamic-grad { background: linear-gradient(var(--grad-dir), var(--grad-start), var(--grad-end)); }
+        .text-accent { color: var(--app-accent); }
+        .glass { background: var(--card-bg); backdrop-filter: blur(25px); border: 1px solid var(--border-alpha); }
+        .glass-dark { background: var(--bg-color); backdrop-filter: blur(15px); border-top: 1px solid var(--border-alpha); }
+
+        .page-transition { transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
+        .hidden-state { opacity: 0; transform: scale(0.95); filter: blur(10px); pointer-events: none; }
+        
+        .splash-wall {
+            position: absolute; inset: 0; display: flex; justify-content: center; gap: 10px;
+            perspective: 2000px; overflow: hidden; opacity: 0.15; z-index: 0;
+            transform: rotateX(15deg) rotateZ(-10deg) scale(1.4);
+        }
+        .wall-column { display: flex; flex-direction: column; gap: 10px; width: 100px; }
+        .wall-column.up { animation: scrollUp 45s linear infinite; }
+        .wall-column.down { animation: scrollDown 45s linear infinite; }
+        @keyframes scrollUp { from { transform: translateY(0); } to { transform: translateY(-50%); } }
+        @keyframes scrollDown { from { transform: translateY(-50%); } to { transform: translateY(0); } }
+        .wall-item { width: 100%; aspect-ratio: 1/1; border-radius: 8px; object-fit: cover; background: #111; }
+
+        #now-playing-screen, #album-view {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 100;
+            background: var(--bg-color); transform: translateY(100%);
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        #now-playing-screen.active, #album-view.active { transform: translateY(0); }
+
+        #album-hero-bg {
+            position: absolute; top: 0; left: 0; width: 100%; height: 60%;
+            background-size: cover; background-position: center;
+            filter: blur(40px) brightness(0.3); opacity: 0.6; pointer-events: none;
+        }
+
+        #visualizer { position: absolute; bottom: 0; left: 0; width: 100%; height: 40%; z-index: 0; opacity: 0.4; pointer-events: none; }
+
+        .cover-container { position: relative; width: 75vw; max-width: 300px; aspect-ratio: 1/1; perspective: 1200px; margin: 0 auto; }
+        .slide-cover { 
+            position: absolute; inset: 0; transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.6s ease; 
+            border-radius: 1.5rem; box-shadow: 0 20px 40px rgba(0,0,0,0.4); object-fit: cover; 
+        }
+        .slide-active { transform: translateX(0) rotateY(0) scale(1); opacity: 1; }
+        .slide-out-left { transform: translateX(-120%) rotateY(-30deg) scale(0.8); opacity: 0; }
+        .slide-out-right { transform: translateX(120%) rotateY(30deg) scale(0.8); opacity: 0; }
+        .slide-in-right { transform: translateX(120%) rotateY(30deg) scale(0.8); opacity: 0; }
+        .slide-in-left { transform: translateX(-120%) rotateY(-30deg) scale(0.8); opacity: 0; }
+
+        .seek-bar { -webkit-appearance: none; width: 100%; background: transparent; height: 30px; cursor: pointer; }
+        .seek-bar::-webkit-slider-runnable-track { background: var(--border-alpha); height: 3px; border-radius: 10px; }
+        .seek-bar::-webkit-slider-thumb { 
+            -webkit-appearance: none; height: 14px; width: 14px; background: var(--text-main); 
+            border-radius: 50%; margin-top: -5.5px; box-shadow: 0 0 10px var(--app-accent); 
+        }
+
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        /* Tabs Favoritos */
+        .tabs-nav { display: flex; gap: 8px; background: rgba(255,255,255,0.05); padding: 4px; border-radius: 16px; margin-bottom: 24px; }
+        .tab-trigger { flex: 1; padding: 10px; border-radius: 12px; font-size: 10px; font-weight: 900; color: var(--text-dim); transition: 0.3s; text-transform: uppercase; }
+        .tab-trigger.active { background: var(--app-accent); color: #000; }
+        .tab-panel { display: none; }
+        .tab-panel.active { display: block; }
+
+        .color-dot { width: 34px; height: 34px; border-radius: 10px; cursor: pointer; border: 2px solid transparent; transition: 0.2s; }
+        .color-dot.active { border-color: var(--text-main); transform: scale(1.1); }
+        .dir-btn { padding: 10px; background: var(--card-bg); border: 1px solid var(--border-alpha); border-radius: 10px; font-size: 8px; font-weight: 900; color: var(--text-main); text-transform: uppercase; }
+        .dir-btn.active { background: var(--app-accent); color: #000; border-color: var(--app-accent); }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;div id=&quot;dynamic-bg-glow&quot;&gt;&lt;/div&gt;
+
+    &lt;!-- Splash Screen --&gt;
+    &lt;div id=&quot;splash-screen&quot; class=&quot;fixed inset-0 z-[200] bg-black flex flex-col items-center justify-center page-transition&quot;&gt;
+        &lt;div class=&quot;splash-wall&quot; id=&quot;splash-wall&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;relative z-10 text-center flex flex-col items-center p-6 w-full max-w-xs&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-compact-disc text-8xl text-green-500 animate-[spin_10s_linear_infinite] mb-6&quot;&gt;&lt;/i&gt;
+            &lt;h1 class=&quot;text-5xl font-black tracking-tighter mb-2 text-white uppercase italic&quot;&gt;EchoStream&lt;/h1&gt;
+            &lt;p class=&quot;text-zinc-500 text-[9px] tracking-[0.4em] mb-10 uppercase font-black&quot; data-i18n=&quot;tagline&quot;&gt;Som de Próxima Geração&lt;/p&gt;
+            &lt;button onclick=&quot;goToLogin()&quot; class=&quot;w-full py-5 bg-white text-black font-black rounded-full shadow-2xl active:scale-95 transition-all text-sm&quot; data-i18n=&quot;connect_btn&quot;&gt;INICIAR SESSÃO&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Login Screen --&gt;
+    &lt;div id=&quot;login-screen&quot; class=&quot;hidden-state fixed inset-0 z-[190] bg-black flex items-center justify-center p-6 page-transition&quot;&gt;
+        &lt;div class=&quot;glass p-8 rounded-[2.5rem] w-full max-w-sm text-center text-white&quot;&gt;
+            &lt;h2 class=&quot;text-2xl font-black mb-1&quot; data-i18n=&quot;welcome_title&quot;&gt;Seu Perfil&lt;/h2&gt;
+            &lt;p class=&quot;text-[10px] text-zinc-500 uppercase tracking-widest font-bold mb-6&quot; data-i18n=&quot;welcome_sub&quot;&gt;Como devemos te chamar?&lt;/p&gt;
+            &lt;input type=&quot;text&quot; id=&quot;username-input&quot; data-i18n-placeholder=&quot;name_placeholder&quot; placeholder=&quot;Seu nome&quot; class=&quot;w-full bg-white/5 border border-white/10 p-4 rounded-xl mb-6 outline-none focus:border-green-500 text-center&quot;&gt;
+            &lt;button onclick=&quot;finishLogin()&quot; class=&quot;w-full py-4 bg-green-500 text-black font-black rounded-xl active:scale-95 text-sm&quot; data-i18n=&quot;enter_btn&quot;&gt;ENTRAR&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Main App UI --&gt;
+    &lt;div id=&quot;main-app&quot; class=&quot;hidden-state h-screen flex flex-col page-transition relative z-10&quot;&gt;
+        &lt;header class=&quot;h-20 flex items-center justify-between px-6 bg-black/5 backdrop-blur-xl border-b border-[var(--border-alpha)]&quot;&gt;
+            &lt;div class=&quot;flex items-center gap-2&quot;&gt;
+                &lt;div class=&quot;w-9 h-9 dynamic-grad rounded-lg flex items-center justify-center rotate-3 shadow-lg&quot;&gt;
+                    &lt;i class=&quot;fa-solid fa-compact-disc text-black&quot;&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;span class=&quot;font-black tracking-tighter text-xl uppercase italic&quot;&gt;Echo&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;button onclick=&quot;toggleMenu()&quot; class=&quot;w-10 h-10 rounded-xl bg-zinc-800 flex items-center justify-center border border-[var(--border-alpha)]&quot;&gt;
+                &lt;span id=&quot;user-initial&quot; class=&quot;text-sm font-black text-accent&quot;&gt;?&lt;/span&gt;
+            &lt;/button&gt;
+        &lt;/header&gt;
+
+        &lt;main class=&quot;flex-1 overflow-y-auto p-6 pb-32 no-scrollbar&quot;&gt;
+            &lt;div id=&quot;greet&quot; class=&quot;mb-8&quot;&gt;
+                &lt;p id=&quot;date-now&quot; class=&quot;text-[var(--text-dim)] text-[8px] font-bold uppercase tracking-[0.3em] mb-2&quot;&gt;Carregando...&lt;/p&gt;
+                &lt;h2 class=&quot;text-3xl font-black leading-tight&quot;&gt;&lt;span id=&quot;time-greeting&quot;&gt;Olá&lt;/span&gt;, &lt;span class=&quot;text-accent text-3xl block&quot; id=&quot;user-name-display&quot;&gt;Convidado&lt;/span&gt;&lt;/h2&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Álbuns --&gt;
+            &lt;section class=&quot;mb-10&quot;&gt;
+                &lt;h3 class=&quot;text-[10px] font-black text-zinc-500 uppercase tracking-[0.3em] mb-4&quot;&gt;Álbuns &amp; Playlists&lt;/h3&gt;
+                &lt;div id=&quot;horizontal-albums&quot; class=&quot;flex gap-5 overflow-x-auto no-scrollbar&quot;&gt;&lt;/div&gt;
+            &lt;/section&gt;
+
+            &lt;!-- Busca --&gt;
+            &lt;div class=&quot;relative mb-10&quot;&gt;
+                &lt;i class=&quot;fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-[var(--text-dim)] text-sm&quot;&gt;&lt;/i&gt;
+                &lt;input type=&quot;text&quot; data-i18n-placeholder=&quot;search_placeholder&quot; placeholder=&quot;Buscar som...&quot; oninput=&quot;handleSearch(this.value)&quot; class=&quot;w-full bg-[var(--card-bg)] border border-[var(--border-alpha)] py-3.5 pl-12 pr-4 rounded-xl outline-none text-[var(--text-main)]&quot;&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Grid de Músicas --&gt;
+            &lt;div id=&quot;grid-container&quot; class=&quot;grid grid-cols-2 gap-4&quot;&gt;&lt;/div&gt;
+        &lt;/main&gt;
+
+        &lt;!-- Player Compacto --&gt;
+        &lt;footer id=&quot;mini-player&quot; class=&quot;fixed bottom-0 left-0 right-0 h-24 glass-dark px-6 flex items-center justify-between z-[90]&quot; onclick=&quot;openNowPlaying()&quot;&gt;
+            &lt;div class=&quot;flex items-center gap-4 w-2/3 overflow-hidden&quot;&gt;
+                &lt;img id=&quot;mini-cover&quot; src=&quot;&quot; class=&quot;w-12 h-12 rounded-xl object-cover shadow-xl bg-zinc-900 flex-shrink-0&quot;&gt;
+                &lt;div class=&quot;truncate&quot;&gt;
+                    &lt;p id=&quot;mini-title&quot; class=&quot;font-black text-sm truncate uppercase tracking-tighter&quot; data-i18n=&quot;select_song&quot;&gt;Toque algo&lt;/p&gt;
+                    &lt;p id=&quot;mini-artist&quot; class=&quot;text-[9px] text-[var(--text-dim)] uppercase tracking-widest font-bold truncate&quot;&gt;EchoStream&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;button id=&quot;mini-play-btn&quot; onclick=&quot;event.stopPropagation(); togglePlay();&quot; class=&quot;w-12 h-12 flex items-center justify-center dynamic-grad text-black rounded-full text-lg shadow-xl active:scale-90 transition-all&quot;&gt;
+                &lt;i class=&quot;fa-solid fa-play&quot;&gt;&lt;/i&gt;
+            &lt;/button&gt;
+        &lt;/footer&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Album View --&gt;
+    &lt;div id=&quot;album-view&quot; class=&quot;flex flex-col&quot;&gt;
+        &lt;div id=&quot;album-hero-bg&quot;&gt;&lt;/div&gt;
+        &lt;header class=&quot;relative p-6 flex justify-between items-center z-10&quot;&gt;
+            &lt;button onclick=&quot;closeAlbum()&quot; class=&quot;w-10 h-10 rounded-xl bg-black/20 backdrop-blur-md flex items-center justify-center border border-white/10&quot;&gt;
+                &lt;i class=&quot;fa-solid fa-chevron-down&quot;&gt;&lt;/i&gt;
+            &lt;/button&gt;
+            &lt;p class=&quot;font-black text-[9px] uppercase tracking-[0.4em] opacity-40&quot;&gt;Coleção&lt;/p&gt;
+            &lt;div class=&quot;w-10&quot;&gt;&lt;/div&gt;
+        &lt;/header&gt;
+        &lt;div class=&quot;relative z-10 flex flex-col items-center px-6 pt-2 pb-8 text-center&quot;&gt;
+            &lt;div class=&quot;w-48 h-48 rounded-3xl overflow-hidden shadow-2xl mb-6 border border-white/10&quot;&gt;
+                &lt;img id=&quot;album-cover-display&quot; src=&quot;&quot; class=&quot;w-full h-full object-cover&quot;&gt;
+            &lt;/div&gt;
+            &lt;h2 id=&quot;album-title-display&quot; class=&quot;text-3xl font-black tracking-tighter uppercase mb-1&quot;&gt;---&lt;/h2&gt;
+            &lt;p id=&quot;album-artist-display&quot; class=&quot;text-xs font-bold text-accent uppercase tracking-widest mb-2&quot;&gt;---&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;album-tracks-list&quot; class=&quot;relative z-10 flex-1 bg-black/40 backdrop-blur-3xl rounded-t-[40px] p-6 overflow-y-auto no-scrollbar border-t border-white/5 space-y-2&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Expanded Player --&gt;
+    &lt;div id=&quot;now-playing-screen&quot;&gt;
+        &lt;canvas id=&quot;visualizer&quot;&gt;&lt;/canvas&gt;
+        &lt;div class=&quot;relative z-10 flex flex-col items-center justify-between h-full p-6 pt-12 pb-10&quot;&gt;
+            &lt;div class=&quot;w-full flex justify-between items-center&quot;&gt;
+                &lt;button onclick=&quot;closeNowPlaying()&quot; class=&quot;w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center&quot;&gt;&lt;i class=&quot;fa-solid fa-chevron-down&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                &lt;p class=&quot;text-[8px] font-black tracking-[0.4em] text-[var(--text-dim)] uppercase&quot; data-i18n=&quot;playing_now&quot;&gt;Em Reprodução&lt;/p&gt;
+                &lt;button onclick=&quot;toggleFavorite()&quot; id=&quot;fav-btn-player&quot; class=&quot;w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center transition-colors&quot;&gt;
+                    &lt;i class=&quot;fa-solid fa-heart&quot;&gt;&lt;/i&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;cover-container&quot; id=&quot;large-cover-parent&quot;&gt;
+                &lt;img id=&quot;large-cover&quot; src=&quot;&quot; class=&quot;slide-cover slide-active&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;w-full text-center px-2&quot;&gt;
+                &lt;h2 id=&quot;large-title&quot; class=&quot;text-2xl font-black truncate uppercase mb-1&quot;&gt;Título&lt;/h2&gt;
+                &lt;p id=&quot;large-artist&quot; class=&quot;text-accent font-black tracking-[0.1em] text-[10px] uppercase mb-4&quot;&gt;Artista&lt;/p&gt;
+                &lt;button onclick=&quot;askGemini()&quot; class=&quot;px-5 py-2 rounded-full border border-[var(--border-alpha)] bg-white/5 text-[9px] font-bold uppercase tracking-widest&quot;&gt;&lt;i class=&quot;fa-solid fa-wand-magic-sparkles text-accent mr-2&quot;&gt;&lt;/i&gt; Echo AI&lt;/button&gt;
+                &lt;div id=&quot;gemini-recs&quot; class=&quot;bg-white/5 rounded-2xl p-4 border border-[var(--border-alpha)] text-left mt-4 hidden&quot;&gt;
+                    &lt;p id=&quot;ai-response&quot; class=&quot;text-[10px] text-zinc-300 leading-relaxed italic&quot;&gt;&quot;...&quot;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;w-full px-4&quot;&gt;
+                &lt;input type=&quot;range&quot; class=&quot;seek-bar&quot; id=&quot;seek-slider&quot; value=&quot;0&quot; step=&quot;0.1&quot; oninput=&quot;handleSeek(this.value)&quot;&gt;
+                &lt;div class=&quot;flex justify-between text-[10px] font-bold text-[var(--text-dim)] mt-1&quot;&gt;
+                    &lt;span id=&quot;time-current&quot;&gt;0:00&lt;/span&gt;
+                    &lt;span id=&quot;time-total&quot;&gt;0:00&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;flex items-center justify-center gap-8 mt-6&quot;&gt;
+                    &lt;button onclick=&quot;prevSong()&quot; class=&quot;text-2xl text-[var(--text-dim)]&quot;&gt;&lt;i class=&quot;fa-solid fa-backward-step&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                    &lt;button id=&quot;large-play-btn&quot; onclick=&quot;togglePlay()&quot; class=&quot;w-20 h-20 dynamic-grad text-black rounded-full flex items-center justify-center shadow-xl text-2xl&quot;&gt;&lt;i class=&quot;fa-solid fa-play ml-1&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                    &lt;button onclick=&quot;nextSong()&quot; class=&quot;text-2xl text-[var(--text-dim)]&quot;&gt;&lt;i class=&quot;fa-solid fa-forward-step&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Side Menu / Options --&gt;
+    &lt;div id=&quot;side-menu&quot; class=&quot;fixed top-0 right-0 w-[85%] max-w-xs h-full z-[150] bg-[var(--bg-color)] border-l border-[var(--border-alpha)] p-8 translate-x-full transition-transform duration-500 shadow-2xl flex flex-col&quot;&gt;
+        &lt;div class=&quot;flex justify-between items-center mb-8&quot;&gt;
+            &lt;h3 class=&quot;text-xl font-black uppercase italic&quot; data-i18n=&quot;options_title&quot;&gt;Opções&lt;/h3&gt;
+            &lt;button onclick=&quot;toggleMenu()&quot;&gt;&lt;i class=&quot;fa-solid fa-xmark text-xl text-white&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;nav class=&quot;tabs-nav&quot;&gt;
+            &lt;button onclick=&quot;showTab(&apos;style&apos;)&quot; id=&quot;tab-btn-style&quot; class=&quot;tab-trigger active&quot;&gt;Estilo&lt;/button&gt;
+            &lt;button onclick=&quot;showTab(&apos;favs&apos;)&quot; id=&quot;tab-btn-favs&quot; class=&quot;tab-trigger&quot;&gt;Favoritos&lt;/button&gt;
+        &lt;/nav&gt;
+        &lt;div class=&quot;flex-1 overflow-y-auto no-scrollbar text-white&quot;&gt;
+            &lt;div id=&quot;tab-style&quot; class=&quot;tab-panel active space-y-6&quot;&gt;
+                &lt;div&gt;
+                    &lt;p class=&quot;text-[9px] font-black text-zinc-500 uppercase tracking-widest mb-3&quot;&gt;Idioma&lt;/p&gt;
+                    &lt;div class=&quot;flex gap-2&quot;&gt;
+                        &lt;button onclick=&quot;setLanguage(&apos;pt&apos;)&quot; id=&quot;lang-pt&quot; class=&quot;lang-btn flex-1 py-2 bg-white/5 rounded-lg text-[10px] font-bold&quot;&gt;PT&lt;/button&gt;
+                        &lt;button onclick=&quot;setLanguage(&apos;en&apos;)&quot; id=&quot;lang-en&quot; class=&quot;lang-btn flex-1 py-2 bg-white/5 rounded-lg text-[10px] font-bold&quot;&gt;EN&lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div&gt;
+                    &lt;p class=&quot;text-[9px] font-black text-zinc-500 uppercase tracking-widest mb-3&quot;&gt;Cor de Destaque&lt;/p&gt;
+                    &lt;div class=&quot;grid grid-cols-4 gap-3&quot;&gt;
+                        &lt;div onclick=&quot;setColors(&apos;#22c55e&apos;, &apos;#16a34a&apos;, this)&quot; class=&quot;color-dot bg-green-500 active&quot;&gt;&lt;/div&gt;
+                        &lt;div onclick=&quot;setColors(&apos;#3b82f6&apos;, &apos;#1d4ed8&apos;, this)&quot; class=&quot;color-dot bg-blue-500&quot;&gt;&lt;/div&gt;
+                        &lt;div onclick=&quot;setColors(&apos;#f43f5e&apos;, &apos;#be123c&apos;, this)&quot; class=&quot;color-dot bg-rose-500&quot;&gt;&lt;/div&gt;
+                        &lt;div onclick=&quot;setColors(&apos;#a855f7&apos;, &apos;#7e22ce&apos;, this)&quot; class=&quot;color-dot bg-purple-500&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div id=&quot;tab-favs&quot; class=&quot;tab-panel space-y-4&quot;&gt;
+                &lt;div id=&quot;favorites-list&quot; class=&quot;space-y-3&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button onclick=&quot;handleLogout()&quot; class=&quot;mt-6 py-4 rounded-xl border border-[var(--border-alpha)] text-[var(--text-dim)] font-bold text-[10px] uppercase&quot;&gt;Encerrar Sessão&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;audio id=&quot;audio-engine&quot; playsinline crossorigin=&quot;anonymous&quot;&gt;&lt;/audio&gt;
+
+    &lt;script&gt;
+        const forsakenCover = &quot;https://files.catbox.moe/36ucwq.jpeg&quot;;
+        const forsakenArtist = &quot;Echo Games&quot;;
+
+        const albums = [
+            { id: &apos;alb_forsaken&apos;, name: &apos;Forsaken, Vol. 1&apos;, artist: forsakenArtist, cover: forsakenCover },
+            { id: &apos;alb_hill&apos;, name: &apos;Hill Sessions&apos;, artist: &apos;Gym &amp; Hill&apos;, cover: &apos;https://files.catbox.moe/rn6duv.jpg&apos; },
+            { id: &apos;alb_extra&apos;, name: &apos;Extra Mixes&apos;, artist: &apos;NickTeam&apos;, cover: &apos;https://u.cubeupload.com/NickTeam/artworksKwQ22SYvsnqz.png&apos; },
+            { id: &apos;alb_trinity&apos;, name: &apos;Trinity Project&apos;, artist: &apos;Various&apos;, cover: &apos;https://u.cubeupload.com/NickTeam/cover.jpg&apos; }
+        ];
+
+        // Biblioteca Unificada: Forsaken (27 músicas) + Clássicas
+        const library = [
+            // ÁLBUM FORSAKEN
+            { id: 1, albumId: &apos;alb_forsaken&apos;, title: &quot;Damnation&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/0x83iw.mp3&quot;, cover: forsakenCover },
+            { id: 2, albumId: &apos;alb_forsaken&apos;, title: &quot;Kill For Mother&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/frzqa3.mp3&quot;, cover: forsakenCover },
+            { id: 3, albumId: &apos;alb_forsaken&apos;, title: &quot;Ready Or Not&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/5clkq9.mp3&quot;, cover: forsakenCover },
+            { id: 4, albumId: &apos;alb_forsaken&apos;, title: &quot;Viral Infection&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/izkzc7.mp3&quot;, cover: forsakenCover },
+            { id: 5, albumId: &apos;alb_forsaken&apos;, title: &quot;Domino Effect&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/dc0vhe.mp3&quot;, cover: forsakenCover },
+            { id: 6, albumId: &apos;alb_forsaken&apos;, title: &quot;Hotel Robloxia&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/f8zap6.mp3&quot;, cover: forsakenCover },
+            { id: 7, albumId: &apos;alb_forsaken&apos;, title: &quot;Shadows&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/iqc6sq.mp3&quot;, cover: forsakenCover },
+            { id: 8, albumId: &apos;alb_forsaken&apos;, title: &quot;Resting Place&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/qc7gix.mp3&quot;, cover: forsakenCover },
+            { id: 9, albumId: &apos;alb_forsaken&apos;, title: &quot;Sundowner&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/3jz6sq.mp3&quot;, cover: forsakenCover },
+            { id: 10, albumId: &apos;alb_forsaken&apos;, title: &quot;My Cool Bluu Tune!!!&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/70lb0x.mp3&quot;, cover: forsakenCover },
+            { id: 11, albumId: &apos;alb_forsaken&apos;, title: &quot;Cut-Throat Tea Party&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/rfmz90.mp3&quot;, cover: forsakenCover },
+            { id: 12, albumId: &apos;alb_forsaken&apos;, title: &quot;Debito Di Sonno&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/v2pul3.mp3&quot;, cover: forsakenCover },
+            { id: 13, albumId: &apos;alb_forsaken&apos;, title: &quot;Bad Faith&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/oddbt2.mp3&quot;, cover: forsakenCover },
+            { id: 14, albumId: &apos;alb_forsaken&apos;, title: &quot;One Stud Angel&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/c56w3y.mp3&quot;, cover: forsakenCover },
+            { id: 15, albumId: &apos;alb_forsaken&apos;, title: &quot;Don&apos;t Touch My Chainsaw&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/bmefj1.mp3&quot;, cover: forsakenCover },
+            { id: 16, albumId: &apos;alb_forsaken&apos;, title: &quot;The End Is Nigh&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/60vrpi.mp3&quot;, cover: forsakenCover },
+            { id: 17, albumId: &apos;alb_forsaken&apos;, title: &quot;Killer Vanity&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/ilqx84.mp3&quot;, cover: forsakenCover },
+            { id: 18, albumId: &apos;alb_forsaken&apos;, title: &quot;#ff9cae&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/mj3xhr.mp3&quot;, cover: forsakenCover },
+            { id: 19, albumId: &apos;alb_forsaken&apos;, title: &quot;Cool One&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/mnah6r.mp3&quot;, cover: forsakenCover },
+            { id: 20, albumId: &apos;alb_forsaken&apos;, title: &quot;Banana Bus Breakdown&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/gxxqkv.mp3&quot;, cover: forsakenCover },
+            { id: 21, albumId: &apos;alb_forsaken&apos;, title: &quot;Chimes Of The Lucid&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/vbe1f6.mp3&quot;, cover: forsakenCover },
+            { id: 22, albumId: &apos;alb_forsaken&apos;, title: &quot;Corrupted Reflection&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/6hw806.mp3&quot;, cover: forsakenCover },
+            { id: 23, albumId: &apos;alb_forsaken&apos;, title: &quot;Just Survivors And Killers&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/o2ld71.mp3&quot;, cover: forsakenCover },
+            { id: 24, albumId: &apos;alb_forsaken&apos;, title: &quot;Obsession&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/885lay.mp3&quot;, cover: forsakenCover },
+            { id: 25, albumId: &apos;alb_forsaken&apos;, title: &quot;Unreggcognizable&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/qwv5kl.mp3&quot;, cover: forsakenCover },
+            { id: 26, albumId: &apos;alb_forsaken&apos;, title: &quot;A Grave Soul (Now, Run)&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/q4kydq.mp3&quot;, cover: forsakenCover },
+            { id: 27, albumId: &apos;alb_forsaken&apos;, title: &quot;Plead&quot;, artist: forsakenArtist, url: &quot;https://files.catbox.moe/9rpy6d.mp3&quot;, cover: forsakenCover },
+            
+            // MÚSICAS CLÁSSICAS
+            { id: 100, albumId: &apos;alb_hill&apos;, title: &quot;Friends no More Round 2&quot;, artist: &quot;Remix&quot;, url: &quot;https://files.catbox.moe/pck8cj.mp3&quot;, cover: &quot;https://files.catbox.moe/y6bflx.jpg&quot; },
+            { id: 101, albumId: &apos;alb_hill&apos;, title: &quot;Hide n seek&quot;, artist: &quot;Stealth&quot;, url: &quot;https://files.catbox.moe/tly9ec.mp3&quot;, cover: &quot;https://files.catbox.moe/rn6duv.jpg&quot; },
+            { id: 102, albumId: &apos;alb_hill&apos;, title: &quot;80 OR LESS (YCR OST)&quot;, artist: &quot;YCR&quot;, url: &quot;https://files.catbox.moe/tfikus.mp3&quot;, cover: &quot;https://files.catbox.moe/rn6duv.jpg&quot; },
+            { id: 103, albumId: &apos;alb_hill&apos;, title: &quot;80 OR LESS [HILL.GYM]&quot;, artist: &quot;Gym Mix&quot;, url: &quot;https://files.catbox.moe/z9ea3t.mp3&quot;, cover: &quot;https://files.catbox.moe/rn6duv.jpg&quot; },
+            { id: 104, albumId: &apos;alb_hill&apos;, title: &quot;80 OR LESS [HILL]&quot;, artist: &quot;The Hill&quot;, url: &quot;https://files.catbox.moe/36fzbc.mp3&quot;, cover: &quot;https://files.catbox.moe/rn6duv.jpg&quot; },
+            { id: 105, albumId: &apos;alb_extra&apos;, title: &quot;I Miss The Quiet&quot;, artist: &quot;Novo&quot;, url: &quot;https://files.catbox.moe/75yncp.m4a&quot;, cover: &quot;https://files.catbox.moe/23oo9u.jpeg&quot; },
+            { id: 106, albumId: &apos;alb_extra&apos;, title: &quot;Shucks&quot;, artist: &quot;Original&quot;, url: &quot;https://files.catbox.moe/4xk880.m4a&quot;, cover: &quot;https://u.cubeupload.com/NickTeam/1200x630bb.jpg&quot; },
+            { id: 107, albumId: &apos;alb_extra&apos;, title: &quot;Ma&apos;Oi&quot;, artist: &quot;Extra Cover&quot;, url: &quot;https://files.catbox.moe/q0rw0k.mp3&quot;, cover: &quot;https://u.cubeupload.com/NickTeam/46SemTtulo2026022611.png&quot; },
+            { id: 108, albumId: &apos;alb_extra&apos;, title: &quot;ShucksV3&quot;, artist: &quot;NickTeam&quot;, url: &quot;https://files.catbox.moe/33m4oi.mp3&quot;, cover: &quot;https://u.cubeupload.com/NickTeam/artworksKwQ22SYvsnqz.png&quot; },
+            { id: 109, albumId: &apos;alb_extra&apos;, title: &quot;ShucksV3 (Inst)&quot;, artist: &quot;NickTeam&quot;, url: &quot;https://files.catbox.moe/11exhe.mp3&quot;, cover: &quot;https://u.cubeupload.com/NickTeam/artworksKwQ22SYvsnqz.png&quot; },
+            { id: 110, albumId: &apos;alb_extra&apos;, title: &quot;Shadow 4ever&quot;, artist: &quot;Vibes&quot;, url: &quot;https://files.catbox.moe/iq4bdr.mp3&quot;, cover: &quot;https://u.cubeupload.com/NickTeam/artworks8pazLKnsfpNE.jpg&quot; },
+            { id: 111, albumId: &apos;alb_extra&apos;, title: &quot;Revenant&quot;, artist: &quot;Epic&quot;, url: &quot;https://files.catbox.moe/wo8ifq.mp3&quot;, cover: &quot;https://u.cubeupload.com/NickTeam/images6.jpeg&quot; },
+            { id: 112, albumId: &apos;alb_trinity&apos;, title: &quot;TRINITY ENCORE&quot;, artist: &quot;Remix&quot;, url: &quot;https://files.catbox.moe/mvpw0g.mp3&quot;, cover: &quot;https://u.cubeupload.com/NickTeam/cover.jpg&quot; },
+            { id: 113, albumId: &apos;alb_trinity&apos;, title: &quot;Trinity&quot;, artist: &quot;Original&quot;, url: &quot;https://files.catbox.moe/7xobq4.mp3&quot;, cover: &quot;https://u.cubeupload.com/NickTeam/cover.jpg&quot; },
+            { id: 114, albumId: &apos;alb_trinity&apos;, title: &quot;Fallen Down&quot;, artist: &quot;Lofi&quot;, url: &quot;https://files.catbox.moe/oer90g.mp3&quot;, cover: &quot;https://u.cubeupload.com/NickTeam/UndertaleSoundtrack2.png&quot; },
+            { id: 115, albumId: &apos;alb_trinity&apos;, title: &quot;Last Goodbye&quot;, artist: &quot;Retro&quot;, url: &quot;https://files.catbox.moe/91q5ul.mp3&quot;, cover: &quot;https://u.cubeupload.com/NickTeam/UndertaleSoundtrack2.png&quot; }
+        ];
+
+        let currentIndex = -1, isPlaying = false, audioCtx = null, analyzer, dataArray, favorites = new Set(), currentLang = &apos;pt&apos;;
+        const engine = document.getElementById(&apos;audio-engine&apos;), apiKey = &quot;&quot;;
+
+        const translations = {
+            pt: { tagline: &quot;Som de Próxima Geração&quot;, connect_btn: &quot;INICIAR SESSÃO&quot;, welcome_title: &quot;Seu Perfil&quot;, welcome_sub: &quot;Como devemos te chamar?&quot;, name_placeholder: &quot;Seu nome...&quot;, enter_btn: &quot;ENTRAR&quot;, options_title: &quot;Opções&quot;, search_placeholder: &quot;Buscar som...&quot;, select_song: &quot;Toque algo&quot;, playing_now: &quot;Em Reprodução&quot;, greet_morning: &quot;Bom dia&quot;, greet_afternoon: &quot;Boa tarde&quot;, greet_night: &quot;Boa noite&quot; },
+            en: { tagline: &quot;Next Gen Sound&quot;, connect_btn: &quot;START SESSION&quot;, welcome_title: &quot;Your Profile&quot;, welcome_sub: &quot;What&apos;s your name?&quot;, name_placeholder: &quot;Your name...&quot;, enter_btn: &quot;ENTER&quot;, options_title: &quot;Options&quot;, search_placeholder: &quot;Search sound...&quot;, select_song: &quot;Play something&quot;, playing_now: &quot;Now Playing&quot;, greet_morning: &quot;Good morning&quot;, greet_afternoon: &quot;Good afternoon&quot;, greet_night: &quot;Good night&quot; }
+        };
+
+        function setLanguage(lang) {
+            currentLang = lang;
+            document.querySelectorAll(&apos;.lang-btn&apos;).forEach(b =&gt; b.classList.toggle(&apos;bg-green-500&apos;, b.id === `lang-${lang}`));
+            document.querySelectorAll(&apos;[data-i18n]&apos;).forEach(el =&gt; { const key = el.getAttribute(&apos;data-i18n&apos;); if(translations[lang][key]) el.innerText = translations[lang][key]; });
+            document.querySelectorAll(&apos;[data-i18n-placeholder]&apos;).forEach(el =&gt; { const key = el.getAttribute(&apos;data-i18n-placeholder&apos;); if(translations[lang][key]) el.placeholder = translations[lang][key]; });
+        }
+
+        function setColors(s, e, el) {
+            document.documentElement.style.setProperty(&apos;--app-accent&apos;, s);
+            document.documentElement.style.setProperty(&apos;--grad-start&apos;, s);
+            document.documentElement.style.setProperty(&apos;--grad-end&apos;, e);
+            document.querySelectorAll(&apos;.color-dot&apos;).forEach(d =&gt; d.classList.remove(&apos;active&apos;));
+            if(el) el.classList.add(&apos;active&apos;);
+            document.getElementById(&apos;dynamic-bg-glow&apos;).style.background = `radial-gradient(circle at 50% -20%, ${s}, transparent 70%)`;
+        }
+
+        function showTab(tab) {
+            document.querySelectorAll(&apos;.tab-trigger&apos;).forEach(b =&gt; b.classList.toggle(&apos;active&apos;, b.id === `tab-btn-${tab}`));
+            document.querySelectorAll(&apos;.tab-panel&apos;).forEach(p =&gt; p.classList.toggle(&apos;active&apos;, p.id === `tab-${tab}`));
+            if(tab === &apos;favs&apos;) renderFavorites();
+        }
+
+        function toggleFavorite() {
+            if(currentIndex === -1) return;
+            const id = library[currentIndex].id;
+            favorites.has(id) ? favorites.delete(id) : favorites.add(id);
+            document.getElementById(&apos;fav-btn-player&apos;).classList.toggle(&apos;text-red-500&apos;, favorites.has(id));
+        }
+
+        function renderFavorites() {
+            const list = document.getElementById(&apos;favorites-list&apos;);
+            if(favorites.size === 0) return list.innerHTML = `&lt;p class=&quot;text-center opacity-30 text-[10px] uppercase font-black py-10&quot;&gt;Vazio&lt;/p&gt;`;
+            list.innerHTML = library.filter(s =&gt; favorites.has(s.id)).map(s =&gt; `
+                &lt;div class=&quot;flex items-center gap-3 p-3 glass rounded-xl&quot; onclick=&quot;playTrack(${library.indexOf(s)})&quot;&gt;
+                    &lt;img src=&quot;${s.cover}&quot; class=&quot;w-10 h-10 rounded-lg object-cover&quot;&gt;
+                    &lt;div class=&quot;flex-1 truncate&quot;&gt;&lt;p class=&quot;font-bold text-[11px]&quot;&gt;${s.title}&lt;/p&gt;&lt;/div&gt;
+                    &lt;i class=&quot;fa-solid fa-heart text-red-500 text-[10px]&quot;&gt;&lt;/i&gt;
+                &lt;/div&gt;
+            `).join(&apos;&apos;);
+        }
+
+        function goToLogin() { document.getElementById(&apos;splash-screen&apos;).classList.add(&apos;hidden-state&apos;); setTimeout(() =&gt; { document.getElementById(&apos;splash-screen&apos;).style.display=&apos;none&apos;; document.getElementById(&apos;login-screen&apos;).classList.remove(&apos;hidden-state&apos;); document.getElementById(&apos;login-screen&apos;).style.display=&apos;flex&apos;; }, 600); }
+        
+        function finishLogin() {
+            const name = document.getElementById(&apos;username-input&apos;).value.trim() || &quot;User&quot;;
+            document.getElementById(&apos;user-name-display&apos;).innerText = name;
+            document.getElementById(&apos;user-initial&apos;).innerText = name[0].toUpperCase();
+            document.getElementById(&apos;login-screen&apos;).classList.add(&apos;hidden-state&apos;);
+            document.getElementById(&apos;date-now&apos;).innerText = new Date().toLocaleDateString(currentLang === &apos;pt&apos; ? &apos;pt-br&apos; : &apos;en-us&apos;, {weekday:&apos;long&apos;, day:&apos;numeric&apos;, month:&apos;long&apos;});
+            setTimeout(() =&gt; { document.getElementById(&apos;login-screen&apos;).style.display=&apos;none&apos;; document.getElementById(&apos;main-app&apos;).classList.remove(&apos;hidden-state&apos;); renderHome(); }, 600);
+        }
+
+        function renderHome() {
+            document.getElementById(&apos;horizontal-albums&apos;).innerHTML = albums.map(a =&gt; `
+                &lt;div class=&quot;flex-shrink-0 w-36 active:scale-95 transition-transform&quot; onclick=&quot;openAlbum(&apos;${a.id}&apos;)&quot;&gt;
+                    &lt;div class=&quot;w-full aspect-square rounded-2xl overflow-hidden shadow-xl mb-2 border border-white/5 bg-zinc-900&quot;&gt;
+                        &lt;img src=&quot;${a.cover}&quot; class=&quot;w-full h-full object-cover&quot;&gt;
+                    &lt;/div&gt;
+                    &lt;p class=&quot;font-black text-[9px] truncate uppercase tracking-tighter&quot;&gt;${a.name}&lt;/p&gt;
+                &lt;/div&gt;
+            `).join(&apos;&apos;);
+
+            document.getElementById(&apos;grid-container&apos;).innerHTML = library.map((s, i) =&gt; `
+                &lt;div class=&quot;song-card p-3 rounded-2xl glass active:scale-95 transition-all&quot; onclick=&quot;playTrack(${i})&quot;&gt;
+                    &lt;img src=&quot;${s.cover}&quot; class=&quot;w-full aspect-square object-cover rounded-xl mb-3&quot;&gt;
+                    &lt;p class=&quot;font-black truncate text-[10px] uppercase tracking-tighter&quot;&gt;${s.title}&lt;/p&gt;
+                    &lt;p class=&quot;text-[8px] text-zinc-500 font-bold truncate uppercase&quot;&gt;${s.artist}&lt;/p&gt;
+                &lt;/div&gt;
+            `).join(&apos;&apos;);
+        }
+
+        function openAlbum(id) {
+            const album = albums.find(a =&gt; a.id === id);
+            const tracks = library.filter(t =&gt; t.albumId === id);
+            document.getElementById(&apos;album-hero-bg&apos;).style.backgroundImage = `url(${album.cover})`;
+            document.getElementById(&apos;album-cover-display&apos;).src = album.cover;
+            document.getElementById(&apos;album-title-display&apos;).innerText = album.name;
+            document.getElementById(&apos;album-artist-display&apos;).innerText = album.artist;
+            document.getElementById(&apos;album-tracks-list&apos;).innerHTML = tracks.map(t =&gt; `
+                &lt;div class=&quot;flex items-center p-3 rounded-2xl active:bg-white/5&quot; onclick=&quot;playTrack(${library.indexOf(t)})&quot;&gt;
+                    &lt;div class=&quot;flex-1 truncate&quot;&gt;
+                        &lt;p class=&quot;font-black text-[11px] uppercase tracking-tighter&quot;&gt;${t.title}&lt;/p&gt;
+                        &lt;p class=&quot;text-[8px] text-zinc-500 font-bold uppercase&quot;&gt;${t.artist}&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;i class=&quot;fa-solid fa-play text-accent text-[10px]&quot;&gt;&lt;/i&gt;
+                &lt;/div&gt;
+            `).join(&apos;&apos;);
+            document.getElementById(&apos;album-view&apos;).classList.add(&apos;active&apos;);
+        }
+
+        function closeAlbum() { document.getElementById(&apos;album-view&apos;).classList.remove(&apos;active&apos;); }
+
+        async function playTrack(i, dir = &apos;next&apos;) {
+            if (!audioCtx) initAudioSystem();
+            if (currentIndex !== i) {
+                if (currentIndex !== -1) animateTransition(library[i], dir);
+                else {
+                    document.getElementById(&apos;large-title&apos;).innerText = library[i].title;
+                    document.getElementById(&apos;large-artist&apos;).innerText = library[i].artist;
+                    document.getElementById(&apos;large-cover&apos;).src = library[i].cover;
+                }
+                currentIndex = i;
+                engine.src = library[i].url;
+                engine.load();
+                document.getElementById(&apos;gemini-recs&apos;).classList.add(&apos;hidden&apos;);
+            }
+            engine.play().then(() =&gt; { isPlaying = true; updateUI(); }).catch(() =&gt; {});
+        }
+
+        function togglePlay() { if (currentIndex === -1) return playTrack(0); engine.paused ? engine.play() : engine.pause(); isPlaying = !engine.paused; updateUI(); }
+        
+        function updateUI() {
+            const icon = isPlaying ? &apos;&lt;i class=&quot;fa-solid fa-pause&quot;&gt;&lt;/i&gt;&apos; : &apos;&lt;i class=&quot;fa-solid fa-play&quot;&gt;&lt;/i&gt;&apos;;
+            document.getElementById(&apos;mini-play-btn&apos;).innerHTML = icon;
+            document.getElementById(&apos;large-play-btn&apos;).innerHTML = isPlaying ? &apos;&lt;i class=&quot;fa-solid fa-pause&quot;&gt;&lt;/i&gt;&apos; : &apos;&lt;i class=&quot;fa-solid fa-play ml-1&quot;&gt;&lt;/i&gt;&apos;;
+            if(currentIndex !== -1) {
+                document.getElementById(&apos;mini-title&apos;).innerText = library[currentIndex].title;
+                document.getElementById(&apos;mini-artist&apos;).innerText = library[currentIndex].artist;
+                document.getElementById(&apos;mini-cover&apos;).src = library[currentIndex].cover;
+                document.getElementById(&apos;fav-btn-player&apos;).classList.toggle(&apos;text-red-500&apos;, favorites.has(library[currentIndex].id));
+            }
+        }
+
+        function animateTransition(song, dir) {
+            const img = document.getElementById(&apos;large-cover&apos;), parent = document.getElementById(&apos;large-cover-parent&apos;);
+            const oldImg = img.cloneNode(); parent.appendChild(oldImg);
+            img.style.transition = &apos;none&apos;; img.src = song.cover;
+            img.className = `slide-cover ${dir === &apos;next&apos; ? &apos;slide-in-right&apos; : &apos;slide-in-left&apos;}`;
+            document.getElementById(&apos;large-title&apos;).innerText = song.title;
+            document.getElementById(&apos;large-artist&apos;).innerText = song.artist;
+            setTimeout(() =&gt; { oldImg.classList.add(dir === &apos;next&apos; ? &apos;slide-out-left&apos; : &apos;slide-out-right&apos;); img.style.transition = &apos;&apos;; img.className = &apos;slide-cover slide-active&apos;; setTimeout(() =&gt; oldImg.remove(), 800); }, 50);
+        }
+
+        function initAudioSystem() {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            analyzer = audioCtx.createAnalyser();
+            const source = audioCtx.createMediaElementSource(engine);
+            source.connect(analyzer); analyzer.connect(audioCtx.destination);
+            analyzer.fftSize = 128; dataArray = new Uint8Array(analyzer.frequencyBinCount);
+            drawVisualizer();
+        }
+
+        function drawVisualizer() {
+            const canvas = document.getElementById(&apos;visualizer&apos;), ctx = canvas.getContext(&apos;2d&apos;);
+            canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+            function render() {
+                requestAnimationFrame(render);
+                if (!analyzer) return;
+                analyzer.getByteFrequencyData(dataArray);
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                const color = getComputedStyle(document.documentElement).getPropertyValue(&apos;--app-accent&apos;).trim();
+                const barWidth = (canvas.width / dataArray.length) * 2; let x = 0;
+                for(let i = 0; i &lt; dataArray.length; i++) {
+                    const barHeight = (dataArray[i] / 255) * canvas.height * 0.4;
+                    ctx.fillStyle = color; ctx.globalAlpha = dataArray[i]/400;
+                    ctx.fillRect(x, canvas.height - barHeight, barWidth - 1, barHeight);
+                    x += barWidth;
+                }
+            }
+            render();
+        }
+
+        async function askGemini() {
+            const box = document.getElementById(&apos;gemini-recs&apos;), text = document.getElementById(&apos;ai-response&apos;);
+            box.classList.remove(&apos;hidden&apos;); text.innerText = &quot;...&quot;;
+            try {
+                const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`, {
+                    method: &apos;POST&apos;, headers: { &apos;Content-Type&apos;: &apos;application/json&apos; },
+                    body: JSON.stringify({ contents: [{ parts: [{ text: `Diga algo sobre a música ${library[currentIndex].title}.` }] }] })
+                });
+                const data = await response.json();
+                text.innerText = data.candidates?.[0]?.content?.parts?.[0]?.text || &quot;Vibe excelente.&quot;;
+            } catch { text.innerText = &quot;IA Offline.&quot;; }
+        }
+
+        function nextSong() { playTrack((currentIndex + 1) % library.length, &apos;next&apos;); }
+        function prevSong() { playTrack((currentIndex - 1 + library.length) % library.length, &apos;prev&apos;); }
+        function handleSeek(v) { if (currentIndex !== -1) engine.currentTime = (v / 100) * engine.duration; }
+        function handleSearch(v) { const q = v.toLowerCase(); document.querySelectorAll(&apos;.song-card&apos;).forEach(c =&gt; { c.style.display = c.innerText.toLowerCase().includes(q) ? &apos;block&apos; : &apos;none&apos;; }); }
+        function toggleMenu() { document.getElementById(&apos;side-menu&apos;).classList.toggle(&apos;translate-x-full&apos;); }
+        function openNowPlaying() { if(currentIndex !== -1) document.getElementById(&apos;now-playing-screen&apos;).classList.add(&apos;active&apos;); }
+        function closeNowPlaying() { document.getElementById(&apos;now-playing-screen&apos;).classList.remove(&apos;active&apos;); }
+        function handleLogout() { location.reload(); }
+        function formatTime(s) { if (isNaN(s)) return &quot;0:00&quot;; const m = Math.floor(s/60), r = Math.floor(s%60); return `${m}:${r &lt; 10 ? &apos;0&apos; : &apos;&apos;}${r}`; }
+
+        engine.ontimeupdate = () =&gt; {
+            const p = (engine.currentTime / engine.duration) * 100 || 0;
+            document.getElementById(&apos;seek-slider&apos;).value = p;
+            document.getElementById(&apos;time-current&apos;).innerText = formatTime(engine.currentTime);
+            document.getElementById(&apos;time-total&apos;).innerText = formatTime(engine.duration);
+        };
+        engine.onended = () =&gt; nextSong();
+
+        function initWall() {
+            const wall = document.getElementById(&apos;splash-wall&apos;); wall.innerHTML = &apos;&apos;;
+            for(let i=0; i&lt;3; i++) {
+                const col = document.createElement(&apos;div&apos;);
+                col.className = `wall-column ${i%2==0?&apos;up&apos;:&apos;down&apos;}`;
+                [...library, ...library].sort(() =&gt; Math.random() - 0.5).forEach(s =&gt; {
+                    const img = document.createElement(&apos;img&apos;); img.src = s.cover; img.className = &apos;wall-item&apos;; col.appendChild(img);
+                });
+                wall.appendChild(col);
+            }
+        }
+
+        window.onload = () =&gt; { initWall(); setLanguage(&apos;pt&apos;); };
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</value>
+                    </formula>
+                    <formula category="POSX">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="HEIGHT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>2320</value>
+                    </formula>
+                    <formula category="NAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>EchoStream</value>
+                    </formula>
+                    <formula category="POSY">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>292e7740-4dc9-4a9f-9d4b-e9c90fab9437</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+  </scenes>
+  <programVariableList/>
+  <programListOfLists/>
+  <programMultiplayerVariableList/>
+</program>
